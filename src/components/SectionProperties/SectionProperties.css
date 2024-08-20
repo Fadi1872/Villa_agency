@@ -1,0 +1,32 @@
+#properties{
+    padding-block: 50px;
+}
+
+#properties .title_container{
+    max-width: 350px;
+    margin-inline: auto;
+}
+
+#properties .properties_container{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+}
+
+#properties .properties_container .property_card-container{
+    width: 33.33333%;
+    padding-inline: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #properties .properties_container .property_card-container{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #properties .properties_container .property_card-container{
+        width: 100%;
+    }
+}

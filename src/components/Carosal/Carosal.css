@@ -1,0 +1,41 @@
+.arrow_btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 40px;
+    aspect-ratio: 1;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.arrow_btn.left{
+    left: 20px;
+}
+
+.arrow_btn.right{
+    right: 20px;
+}
+
+.carosal_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.hidden{
+    transform: translateX(100%);
+}

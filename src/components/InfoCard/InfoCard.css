@@ -1,0 +1,31 @@
+.info_card{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #f3552555;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.info_card .number{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.info_card .text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info_card .circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f35525;
+}

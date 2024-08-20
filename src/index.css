@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global classes */
+.text-orange{
+    color: #f35525 !important;
+}
+
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 576px){
+    html{
+    font-size: 16px;
+    }
+}
