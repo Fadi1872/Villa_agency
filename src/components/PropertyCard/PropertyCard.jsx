@@ -3,7 +3,6 @@ import './PropertyCard.css'
 const PropertyCard = ({img, type, price, location, features, button}) => {
 
     const featuresEntries = Object.entries(features)
-    console.log(featuresEntries);
     
 
   return (

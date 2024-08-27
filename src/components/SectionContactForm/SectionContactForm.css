@@ -1,0 +1,98 @@
+.conact_form-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.conact_form-container.contact_page {
+  margin-top: 50px;
+}
+
+.conact_form-container .conact_blocks-container.contact_page {
+  flex-direction: column;
+  align-items: start;
+}
+
+.conact_form-container.home_page {
+  margin-top: -40vh;
+}
+
+.conact_form-container .form_title {
+  max-width: 300px;
+  padding-bottom: 30px;
+}
+
+.conact_form-container .title_text {
+  opacity: 75%;
+  padding-bottom: 40px;
+}
+
+.conact_form-container .col-6 {
+  width: 60%;
+}
+
+.conact_form-container iframe.home_page {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.conact_form-container .contact_page-iframe {
+  margin-top: 50px;
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.conact_form-container .col-4 {
+  padding-left: 30px;
+  width: 40%;
+}
+
+.conact_form-container .col-5 {
+  width: 48%;
+}
+
+.conact_form-container .contact_form .input_container {
+  margin-bottom: 30px;
+}
+.conact_form-container .contact_form button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+}
+
+.conact_form-container .conact_blocks-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.conact_form-container .conact_blocks-container .contact_block {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .conact_form-container .col-4,
+  .conact_form-container .col-5,
+  .conact_form-container .col-6 {
+    width: 100%;
+  }
+
+  .conact_form-container .col-4 {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .conact_form-container .form_title {
+    max-width: 100%;
+  }
+}

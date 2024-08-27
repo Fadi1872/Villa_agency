@@ -1,0 +1,8 @@
+.features_cards .horizental_card{
+    padding-block: 30px;
+    border-bottom: 1px solid #0002;
+}
+
+.features_cards .horizental_card:last-child{
+    border-bottom: none;
+}

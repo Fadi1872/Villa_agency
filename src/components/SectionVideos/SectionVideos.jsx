@@ -26,11 +26,10 @@ const SectionVideos = ({ background, videoImage, title, subtitle, info }) => {
         </div>
         <div className="info_container">
           {info.map((element, index) => (
-            <div>
+            <div key={index}>
               <InfoCard
                 number={element.number}
                 text={element.text}
-                key={index}
               />
             </div>
           ))}

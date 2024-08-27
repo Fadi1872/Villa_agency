@@ -1,0 +1,35 @@
+.pages_hero {
+  height: 80vh;
+
+  background-image: var(--img);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pages_hero .pages_hero-container{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-top: 40px;
+    padding-inline: 16px;
+}
+
+.pages_hero .pages_hero-container .title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.pages_hero .pages_hero-container .sub_title{
+    background-color: #fff;
+
+    text-align: center;
+    padding: 10px 15px;
+}

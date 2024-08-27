@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.card .type_badge {
+.type_badge {
   background-color: #f3552555;
   padding: 5px 9px;
   border-radius: 5px;
@@ -47,8 +47,8 @@
 
     padding: 10px 25px;
     margin-inline: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 1.025rem;
     background-color: #222;
     color: #fff;

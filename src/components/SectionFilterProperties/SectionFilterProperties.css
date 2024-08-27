@@ -1,0 +1,33 @@
+#filter_section{
+    padding-block: 50px;
+}
+
+#filter_section .tabs_container{
+    justify-content: center;
+}
+
+#filter_section .filter_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+}
+
+#filter_section .filter_container .filter_card{
+    width: 31%;
+}
+
+@media screen and (max-width: 900px) {
+    #filter_section .filter_container .filter_card{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #filter_section .filter_container .filter_card{
+        width: 100%;
+    }
+}
